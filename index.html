@@ -6,15 +6,304 @@
     <link href="styles.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link href="glide.core.min.css" rel="stylesheet"/>
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <div class="logo-container">
-                <img class="logo" src="assets/logo1.svg" alt="Logo"/>
+<header class="header">
+    <div class="header-content">
+        <div class="logo-container">
+            <img class="logo" src="assets/logo1.svg" alt="Logo"/>
+        </div>
+        <div class="nav-container">
+            <div class="nav-item">О нас</div>
+            <div class="nav-item">Программа</div>
+            <div class="nav-item">Обучение</div>
+            <div class="nav-item">Преимущества</div>
+            <div class="nav-item">Отзывы</div>
+            <div class="nav-item">FAQ</div>
+        </div>
+        <div class="reg-button-container">
+            <button class="reg-button">Записаться</button>
+        </div>
+    </div>
+</header>
+<main class="main-content">
+    <div class="welcome-screen">
+        <div class="welcome-screen-left-col">
+            <div>
+                <img src="./assets/decoration.svg" alt=""/>
             </div>
-            <div class="nav-container">
+            <div class="welcome-text">
+                Хотел бы создавать звук для кино
+                и игр? Познакомься с саунд-дизайном
+            </div>
+            <button class="tg-bot-button">Перейти в Telegram-бот</button>
+        </div>
+        <div class="welcome-screen-right-col">
+            <h1 class="title-text">
+                <span class="title">Leitmotiv</span> школа саунд-дизайна
+            </h1>
+        </div>
+    </div>
+    <div class="curriculum-block">
+        <h2 class="block-title">Учебная программа</h2>
+        <div class="curriculum-container">
+            <div class="curriculum-stage">
+                <div class="curriculum-stage-left-col">
+                    <div class="curriculum-stage-number">01/</div>
+                    <div class="curriculum-stage-title">Четыре модуля</div>
+                </div>
+                <div class="curriculum-stage-description">
+                    <ul class="curriculum-stage-description-list">
+                        <li>Основы звукорежиссуры</li>
+                        <li>Микс-инженерия</li>
+                    </ul>
+                    <ul class="curriculum-stage-description-list">
+                        <li>Синтез</li>
+                        <li>Саунд-дизайн</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="curriculum-stage">
+                <div class="curriculum-stage-left-col">
+                    <div class="curriculum-stage-number">02/</div>
+                    <div class="curriculum-stage-title">Telegram-бот</div>
+                </div>
+                <div class="curriculum-stage-description">
+                    Все уроки удобно собраны внутри учебной платформы — нашего Telegram-бота, открывающего вам доступ к
+                    более чем 25 часам лекций и методическим материалам.
+                </div>
+            </div>
+            <div class="curriculum-stage">
+                <div class="curriculum-stage-left-col">
+                    <div class="curriculum-stage-number">03/</div>
+                    <div class="curriculum-stage-title">Поэтапное изучение</div>
+                </div>
+                <div class="curriculum-stage-description">
+                    Обучение последовательное: каждый новый урок открывается после выполнения и проверки домашнего
+                    задания, что помогает закрепить знания на практике.
+                </div>
+            </div>
+            <div class="curriculum-stage">
+                <div class="curriculum-stage-left-col">
+                    <div class="curriculum-stage-number">04/</div>
+                    <div class="curriculum-stage-title">Доступ к курсу</div>
+                </div>
+                <div class="curriculum-stage-description">
+                    И самое главное — доступ к курсу сохраняется навсегда, так что вы всегда сможете вернуться к
+                    материалам.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="studying-block">
+        <h2 class="block-title">Как проходит обучение</h2>
+        <div class="stages-container">
+            <div class="stage-block">
+                <div class="stage-title">Сначала</div>
+                <div class="stage-content">
+                    Основы звукорежиссуры
+                </div>
+                <div class="stage-number">#1</div>
+            </div>
+            <div class="stage-block">
+                <div class="stage-title">Потом</div>
+                <div class="stage-content">
+                    Эквализация, компрессия, сатурация
+                </div>
+                <div class="stage-number">#2</div>
+            </div>
+            <div class="stage-block">
+                <div class="stage-title">Затем</div>
+                <div class="stage-content">
+                    Создание собственного синтезатора, работа в Serum
+                </div>
+                <div class="stage-number">#3</div>
+            </div>
+            <div class="stage-block">
+                <div class="stage-title">И наконец</div>
+                <div class="stage-content">
+                    Полевая запись, монтаж в IZotope RX
+                </div>
+                <div class="stage-number">#4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="platform-advantages-block">
+        <h2 class="block-title">Наша школа - это</h2>
+        <div class="advantages-container">
+            <div class="advantage-block">
+                <div class="block-picture-container">
+                    <img src="assets/book.svg" alt=""/>
+                </div>
+                <div class="advantage-content">
+                    Очные и дистанционные занятия
+                </div>
+            </div>
+            <div class="advantage-block">
+                <div class="block-picture-container">
+                    <img src="assets/platform.svg" alt=""/>
+                </div>
+                <div class="advantage-content">
+                    Удобная учебная платформа
+                </div>
+            </div>
+            <div class="advantage-block">
+                <div class="block-picture-container">
+                    <img src="assets/note.svg" alt=""/>
+                </div>
+                <div class="advantage-content">
+                    Видеоуроки и дополнительные материалы
+                </div>
+            </div>
+            <div class="advantage-block">
+                <div class="block-picture-container">
+                    <img src="assets/group.svg" alt=""/>
+                </div>
+                <div class="advantage-content">
+                    Джемы и коллабы с участниками
+                </div>
+            </div>
+            <div class="advantage-block">
+                <div class="block-picture-container">
+                    <img src="assets/flag.svg" alt=""/>
+                </div>
+                <div class="advantage-content">
+                    Аттестационные работы с фидбеком
+                </div>
+            </div>
+            <div class="advantage-block">
+                <div class="block-picture-container">
+                    <img src="assets/layers.svg" alt=""/>
+                </div>
+                <div class="advantage-content">
+                    Система дедлайнов
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="big-rev-container">
+        <h2 class="title-review">Отзывы наших учеников</h2>
+        <div class="reviews-container">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="review">
+                                <div class="quote-container">
+                                    <div class="quote"><img src="./assets/quote.svg" alt="none"></div>
+                                </div>
+                                <div class="review-content">
+                                    <div class="text-content">
+                                        <div class="text">
+                                            Был приятно удивлён, что нашёл курс, где преподаватель объясняет доступным
+                                            языком, поддерживает связь с учениками.
+                                        </div>
+                                        <p class="author">Александр</p>
+                                    </div>
+                                    <img src="./assets/Alexandr.jpg" alt="Александр" class="review-photo">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="review">
+                                <div class="quote-container">
+                                    <div class="quote"><img src="./assets/quote.svg" alt="none"></div>
+                                </div>
+                                <div class="review-content">
+                                    <div class="text-content">
+                                        <div class="text">
+                                            В каждом уроке функции плагинов и инструментов для саунд-дизайнеров и
+                                            микс-инженеров разобраны подробно.
+                                        </div>
+                                        <p class="author">Сергей</p>
+                                    </div>
+                                    <img src="./assets/Sergey.jpg" alt="Сергей" class="review-photo">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="review">
+                                <div class="quote-container">
+                                    <div class="quote"><img src="./assets/quote.svg" alt="none"></div>
+                                </div>
+                                <div class="review-content">
+                                    <div class="text-content">
+                                        <div class="text">
+                                            Преподаватель подробно разбирает ошибки, а материал подаётся логично и
+                                            понятно. Очень доволен курсом!
+                                        </div>
+                                        <p class="author">Иван</p>
+                                    </div>
+                                    <img src="./assets/ivan.jpg" alt="Иван" class="review-photo">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="review">
+                                <div class="quote-container">
+                                    <div class="quote"><img src="./assets/quote.svg" alt="none"></div>
+                                </div>
+                                <div class="review-content">
+                                    <div class="text-content">
+                                        <div class="text">
+                                            Очень качественный материал, всё разложено по полочкам. Уже вижу прогресс в
+                                            своих работах.
+                                        </div>
+                                        <p class="author">Олег</p>
+                                    </div>
+                                    <img src="./assets/oleg.jpg" alt="Олег" class="review-photo">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left navButton" data-glide-dir="<"><img
+                            src="assets/navLeft.svg" alt=""/></button>
+                    <button class="glide__arrow glide__arrow--right navButton" data-glide-dir=">"><img
+                            src="./assets/navRight.svg" alt=""></button>
+                </div>
+            </div>
+            <script src="glide.js"></script>
+            <script>
+                const config = {
+                    type: "carousel",
+                    perView: 2,
+                };
+                new Glide(".glide", config).mount();
+            </script>
+        </div>
+    </div>
+</main>
+
+<!--footer-->
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <div class="logo-container">
+                <img class="logo" src="assets/logo2.svg" alt="Logo"/>
+            </div>
+            <div class="logo-text-container">
+                <div class="footer-title">
+                    LEITMOTIV
+                </div>
+                <div class="logo-description">
+                    школа саунд-дизайна
+                </div>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <div class="footer-title">
+                Меню
+            </div>
+            <div class="footer-menu-items">
                 <div class="nav-item">О нас</div>
                 <div class="nav-item">Программа</div>
                 <div class="nav-item">Обучение</div>
@@ -22,217 +311,27 @@
                 <div class="nav-item">Отзывы</div>
                 <div class="nav-item">FAQ</div>
             </div>
-            <div class="reg-button-container">
-                <button class="reg-button">Записаться</button>
-            </div>
         </div>
-    </header>
-    <main class="main-content">
-        <div class="welcome-screen">
-            <div class="welcome-screen-left-col">
-                <div>
-                    <img src="./assets/decoration.svg" alt=""/>
-                </div>
-                <div class="welcome-text">
-                    Хотел бы создавать звук для кино
-                    и игр? Познакомься с саунд-дизайном
-                </div>
-                <button class="tg-bot-button">Перейти в Telegram-бот</button>
+        <div class="footer-contacts">
+            <div class="footer-title">
+                Контакты
             </div>
-            <div class="welcome-screen-right-col">
-                <h1 class="title-text">
-                    <span class="title">Leitmotiv</span> школа саунд-дизайна
-                </h1>
-            </div>
-        </div>
-        <div class="curriculum-block">
-            <h2 class="block-title">Учебная программа</h2>
-            <div class="curriculum-container">
-                <div class="curriculum-stage">
-                    <div class="curriculum-stage-left-col">
-                        <div class="curriculum-stage-number">01/</div>
-                        <div class="curriculum-stage-title">Четыре модуля</div>
-                    </div>
-                    <div class="curriculum-stage-description">
-                        <ul class="curriculum-stage-description-list">
-                            <li>Основы звукорежиссуры</li>
-                            <li>Микс-инженерия</li>
-                        </ul>
-                        <ul class="curriculum-stage-description-list">
-                            <li>Синтез</li>
-                            <li>Саунд-дизайн</li>
-                        </ul>
-                    </div>
+            <div class="contacts-container">
+                <div class="contact-img-container">
+                    <img class="contact-img" src="./assets/vkLogo.svg" alt="VK"/>
                 </div>
-                <div class="curriculum-stage">
-                    <div class="curriculum-stage-left-col">
-                        <div class="curriculum-stage-number">02/</div>
-                        <div class="curriculum-stage-title">Telegram-бот</div>
-                    </div>
-                    <div class="curriculum-stage-description">
-                        Все уроки удобно собраны внутри учебной платформы — нашего Telegram-бота, открывающего вам доступ к более чем 25 часам лекций и методическим материалам.
-                    </div>
+                <div class="contact-img-container">
+                    <img class="contact-img" src="./assets/youTubeLogo.svg" alt="YouTube"/>
                 </div>
-                <div class="curriculum-stage">
-                    <div class="curriculum-stage-left-col">
-                        <div class="curriculum-stage-number">03/</div>
-                        <div class="curriculum-stage-title">Поэтапное изучение</div>
-                    </div>
-                    <div class="curriculum-stage-description">
-                        Обучение последовательное: каждый новый урок открывается после выполнения и проверки домашнего задания, что помогает закрепить знания на практике.
-                    </div>
+                <div class="contact-img-container">
+                    <img class="contact-img" src="./assets/googleLogo.svg" alt="Google"/>
                 </div>
-                <div class="curriculum-stage">
-                    <div class="curriculum-stage-left-col">
-                        <div class="curriculum-stage-number">04/</div>
-                        <div class="curriculum-stage-title">Доступ к курсу</div>
-                    </div>
-                    <div class="curriculum-stage-description">
-                        И самое главное — доступ к курсу сохраняется навсегда, так что вы всегда сможете вернуться к материалам.
-                    </div>
+                <div class="contact-img-container">
+                    <img class="contact-img" src="./assets/telegramLogo.svg" alt="Telegram"/>
                 </div>
             </div>
         </div>
-
-        <div class="studying-block">
-            <h2 class="block-title">Как проходит обучение</h2>
-            <div class="stages-container">
-                <div class="stage-block">
-                    <div class="stage-title">Сначала</div>
-                    <div class="stage-content">
-                        Основы звукорежиссуры
-                    </div>
-                    <div class="stage-number">#1</div>
-                </div>
-                <div class="stage-block">
-                    <div class="stage-title">Потом</div>
-                    <div class="stage-content">
-                        Эквализация, компрессия, сатурация
-                    </div>
-                    <div class="stage-number">#2</div>
-                </div>
-                <div class="stage-block">
-                    <div class="stage-title">Затем</div>
-                    <div class="stage-content">
-                        Создание собственного синтезатора, работа в Serum
-                    </div>
-                    <div class="stage-number">#3</div>
-                </div>
-                <div class="stage-block">
-                    <div class="stage-title">И наконец</div>
-                    <div class="stage-content">
-                        Полевая запись, монтаж в IZotope RX
-                    </div>
-                    <div class="stage-number">#4</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="platform-advantages-block">
-            <h2 class="block-title">Наша школа - это</h2>
-            <div class="advantages-container">
-                <div class="advantage-block">
-                    <div class="block-picture-container">
-                        <img src="assets/book.svg" alt=""/>
-                    </div>
-                    <div class="advantage-content">
-                        Очные и дистанционные занятия
-                    </div>
-                </div>
-                <div class="advantage-block">
-                    <div class="block-picture-container">
-                        <img src="assets/platform.svg" alt=""/>
-                    </div>
-                    <div class="advantage-content">
-                        Удобная учебная платформа
-                    </div>
-                </div>
-                <div class="advantage-block">
-                    <div class="block-picture-container">
-                        <img src="assets/note.svg" alt=""/>
-                    </div>
-                    <div class="advantage-content">
-                        Видеоуроки и дополнительные материалы
-                    </div>
-                </div>
-                <div class="advantage-block">
-                    <div class="block-picture-container">
-                        <img src="assets/group.svg" alt=""/>
-                    </div>
-                    <div class="advantage-content">
-                        Джемы и коллабы с участниками
-                    </div>
-                </div>
-                <div class="advantage-block">
-                    <div class="block-picture-container">
-                        <img src="assets/flag.svg" alt=""/>
-                    </div>
-                    <div class="advantage-content">
-                        Аттестационные работы с фидбеком
-                    </div>
-                </div>
-                <div class="advantage-block">
-                    <div class="block-picture-container">
-                        <img src="assets/layers.svg" alt=""/>
-                    </div>
-                    <div class="advantage-content">
-                        Система дедлайнов
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </main>
-
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <div class="logo-container">
-                    <img class="logo" src="assets/logo2.svg" alt="Logo"/>
-                </div>
-                <div class="logo-text-container">
-                    <div class="footer-title">
-                        LEITMOTIV
-                    </div>
-                    <div class="logo-description">
-                        школа саунд-дизайна
-                    </div>
-                </div>
-            </div>
-            <div class="footer-menu">
-                <div class="footer-title">
-                    Меню
-                </div>
-                <div class="footer-menu-items">
-                    <div class="nav-item">О нас</div>
-                    <div class="nav-item">Программа</div>
-                    <div class="nav-item">Обучение</div>
-                    <div class="nav-item">Преимущества</div>
-                    <div class="nav-item">Отзывы</div>
-                    <div class="nav-item">FAQ</div>
-                </div>
-            </div>
-            <div class="footer-contacts">
-                <div class="footer-title">
-                    Контакты
-                </div>
-                <div class="contacts-container">
-                    <div class="contact-img-container">
-                        <img class="contact-img" src="./assets/vkLogo.svg" alt="VK"/>
-                    </div>
-                    <div class="contact-img-container">
-                        <img class="contact-img" src="./assets/youTubeLogo.svg" alt="YouTube"/>
-                    </div>
-                    <div class="contact-img-container">
-                        <img class="contact-img" src="./assets/googleLogo.svg" alt="Google"/>
-                    </div>
-                    <div class="contact-img-container">
-                        <img class="contact-img" src="./assets/telegramLogo.svg" alt="Telegram"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

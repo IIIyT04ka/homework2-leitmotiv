@@ -387,3 +387,112 @@ body {
     width: 32px;
     height: 32px;
 }
+/*----------reviews----------*/
+.big-rev-container {
+    text-align: center;
+    max-width: 100%;
+
+}
+
+.title-review{
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.reviews-container {
+    margin-top: 60px;
+    overflow: hidden;
+    max-width: 1206px;
+    box-sizing: content-box;
+}
+
+.reviews {
+    display: flex;
+    width: 2375px;
+    max-height: 400px; /*??????*/
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review {
+    max-width: 578px;
+    height: 310px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-sizing: border-box;
+
+}
+
+.review-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    max-width: 578px;
+    margin-top: 30px;
+}
+
+.text-content {
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    height: 180px;
+    max-width: 60%;
+}
+
+.quote-container{
+    max-width: 100%;
+    height: 40px;
+    margin-right:700px;
+}
+
+/*.quote {
+    font-size: 40px;
+    color: #1e90ff;
+    max-width: 100%;
+    float: left;
+}
+*/
+
+.text {
+    color: #BABABA;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #FEFEFE;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.review-photo {
+    align-self: flex-start;
+    max-width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.navigation-container{
+    margin-top: 22px;
+}
+
+.navButton {
+    background-color: #2F2F2F;
+    border: none;
+    padding: 10px;
+    border-radius: 52px;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.navButton:hover {
+    background-color: #777;
+}
