@@ -390,7 +390,8 @@ body {
 /*----------reviews----------*/
 .big-rev-container {
     text-align: center;
-    max-width: 1206px;
+    max-width: 100%;
+
 }
 
 .title-review{
@@ -402,44 +403,61 @@ body {
 .reviews-container {
     margin-top: 60px;
     overflow: hidden;
-    width: 100%;
+    max-width: 1206px;
+    box-sizing: content-box;
 }
 
 .reviews {
     display: flex;
-    width: 200%;
+    width: 2375px;
+    max-height: 400px; /*??????*/
+    overflow: hidden;
     transition: transform 0.5s ease-in-out;
 }
 
 .review {
-    width: 50%;
+    max-width: 578px;
+    height: 310px;
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
     margin: 0 10px;
     box-sizing: border-box;
+
 }
 
 .review-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 100%;
+    height: 250px;
+    max-width: 578px;
+    margin-top: 30px;
 }
 
 .text-content {
+    align-self: flex-start;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     text-align: left;
-    max-height: 100%;
+    height: 180px;
     max-width: 60%;
 }
 
-.quote {
+.quote-container{
+    max-width: 100%;
+    height: 40px;
+    margin-right:700px;
+}
+
+/*.quote {
     font-size: 40px;
     color: #1e90ff;
+    max-width: 100%;
+    float: left;
 }
+*/
 
 .text {
     color: #BABABA;
@@ -453,45 +471,28 @@ body {
 }
 
 .review-photo {
-    width: 120px;
-    height: 120px;
+    align-self: flex-start;
+    max-width: 180px;
+    height: 180px;
     border-radius: 10px;
     object-fit: cover;
 }
 
-.navigation-container {
-    margin-top: 20px;
+.navigation-container{
+    margin-top: 22px;
 }
 
-.nav-left {
-    /*background-image: url("./assets/navLeft.svg");*/
-    background-color: #555;
+.navButton {
+    background-color: #2F2F2F;
     border: none;
     padding: 10px;
     border-radius: 52px;
     width: 52px;
     height: 52px;
     cursor: pointer;
-    margin: 5px;
+    margin: 20px;
 }
 
-.nav-right:hover {
+.navButton:hover {
     background-color: #777;
 }
-
-.nav-right {
-    /*background-repeat: no-repeat;*/
-    background-color: #555;
-    border: none;
-    padding: 10px;
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    cursor: pointer;
-    margin: 5px;
-}
-
-.nav-left:hover {
-    background-color: #777;
-}
-
